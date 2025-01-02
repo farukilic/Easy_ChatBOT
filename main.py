@@ -8,7 +8,7 @@ def kelimeleri_ayir(metin): # Kelimeler ayırıyoruz
 
     for karakter in metin:
         # Eğer karakter bir harf veya rakamsa (kelimeye dahil)
-        if karakter.isalnum():  # harf veya rakam
+        if karakter.isalnum() == True:  # harf veya rakam
             kelime += karakter
         else:
 
@@ -39,7 +39,7 @@ cevaplar = {
 "nerelisin": "Ben bir yapay zekayım, bir yerim yok. Ama yine de size yardımcı olabilirim!",
 "yemek önerisi": "İtalyan mutfağı, pizza ve makarna harika seçeneklerdir. Hangi tür yemek tercih edersiniz?",
 "kitap önerisi": "Bilim kurgu veya felsefe kitapları ilginç olabilir. Mesela '1984' ya da 'Savaş ve Barış' gibi.",
-"film önerisi": "Eğer aksiyon seviyorsanız, 'Avengers' serisi harika. Drama mı istersiniz? 'Shawshank Redemption' çok güzel bir film.",
+"film önerisi": "Eğer aksiyon seviyorsanız, 'Harry Potter' serisi harika. Drama mı istersiniz? 'V for Vandetta' çok güzel bir film.",
 "dizi önerisi": "Eğer gerilim seviyorsanız, 'Breaking Bad' ya da 'Stranger Things' harika seçenekler.",
 "saat kaç": "Maalesef saat bilgisi veremiyorum. Fakat başka bir konuda yardımcı olabilirim.",
 "bugün ne yapalım": "Bugün ilginç bir şeyler yapmak isterseniz, kitap okumak veya yeni bir şeyler öğrenmek harika olabilir!",
@@ -50,6 +50,7 @@ cevaplar = {
 "sana nasıl sorular sorabilirim": "Bana herhangi bir soru sorabilirsiniz, yardımcı olabileceğim her konuda cevap vermeye hazırım.",
 "kendi kendini tanıt": "Ben bir yapay zeka modeliyim, çok fazla bilgiye sahibim ve her zaman size yardımcı olmak için buradayım!",
 "hoşça kal": "Hoşça kalın! Her zaman gelmek isterseniz, ben buradayım.",
+"nasıl giderim": "Araba veya uçak, tren gibi toplu taşıma araçları kullanabilirsiniz.",
 "sana şarkı söyleyebilir miyim": "Tabii ki! Ben dinlemem, ama şarkı söylemek eğlenceli olabilir!",
 "çalışıyor musun": "Evet, her zaman çalışıyorum! Yardımcı olabileceğim bir şey var mı?",
 "ne yapmalıyım": "Bunun cevabı tamamen size bağlı! Belki yeni bir hobi edinmek veya bir kitap okumak isteyebilirsiniz.",
@@ -64,7 +65,7 @@ cevaplar = {
 "nasıl yardımcı olabilirim": "Sana her konuda yardımcı olmaya hazırım! Sormak istediğiniz bir şey var mı?",
 "bilgisayar nedir": "Bilgisayar, verileri işleyebilen ve depolayabilen bir elektronik cihazdır. Bunu birçok farklı şekilde kullanabiliriz!",
 "yazılım nedir": "Yazılım, bilgisayarları çalıştıran ve onlara işlevsellik sağlayan programlar ve uygulamalardır.",
-"sana soru sorabilir miyim": "Tabii ki! Herhangi bir soruyu sorabilirsiniz.",
+"soru sorabilir miyim": "Tabii ki! Herhangi bir soruyu sorabilirsiniz.",
 "yapay zeka nasıl çalışır": "Yapay zeka, verilerle beslenir ve bu verileri analiz ederek kararlar alır. Öğrenme, algoritmalar ve modeller kullanarak gerçekleşir.",
 "geçmişteki en büyük buluş nedir": "Bence elektrik, tüm dünyayı değiştiren büyük bir buluştur. Ama birçok büyük buluş da vardır; telefon, internet, ulaşım araçları gibi.",
 "günümüzün en büyük sorunu nedir": "Günümüzde iklim değişikliği, çevre kirliliği ve sosyal eşitsizlik gibi sorunlar büyük bir tehdit oluşturuyor.",
